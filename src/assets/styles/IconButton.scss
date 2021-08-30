@@ -1,0 +1,22 @@
+@import '@styles/Vars.scss';
+
+.icon-button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-color: $gray-color;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  &.icon-button--inactive {
+    background-color: transparent;
+
+    &:hover {
+      background-color: $transparent-gray-color;
+    }
+  }
+}

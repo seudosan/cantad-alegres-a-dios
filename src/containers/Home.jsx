@@ -1,11 +1,13 @@
 /* eslint-disable import/no-unresolved */
 import React from 'react';
+import Footer from '@components/Footer';
 import Main from '@images/main.png';
+import '@styles/Home.scss';
 
 const Home = () => (
   <>
-    <h1>First Home</h1>
-    <img src={Main} alt='Home' />
+    <img className='home__img' src={Main} alt='Home' />
+    <Footer />
   </>
 );
 

@@ -1,0 +1,12 @@
+@import '@styles/Vars.scss';
+
+.footer {
+  background-color: $primary-dark-color;
+  color: $white-color;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 1.6rem;
+  padding: 64px 16px;
+  text-align: center;
+}

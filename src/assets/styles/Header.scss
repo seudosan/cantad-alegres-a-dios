@@ -1,0 +1,17 @@
+@import '@styles/Vars.scss';
+
+.header {
+  align-items: center;
+  background-color: $primary-dark-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 16px;
+  width: 100%;
+}
+.header-nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+}
