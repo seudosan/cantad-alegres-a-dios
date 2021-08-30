@@ -16,10 +16,11 @@ html {
 body {
   background-color: $white-color;
   display: flex;
-  padding: 0;
+  flex-direction: column;
   margin: 0;
   min-width: 320px;
-  flex-direction: column;
+  overscroll-behavior-y: contain;
+  padding: 0;
 }
 ul {
   list-style: none;

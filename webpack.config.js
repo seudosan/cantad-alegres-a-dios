@@ -79,6 +79,7 @@ module.exports = {
     new HTMLWebPackPlugin({
       template: './public/index.html',
       filename: './index.html',
+      favicon: './src/assets/icons/dove.svg',
     }),
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
