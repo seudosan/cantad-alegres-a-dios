@@ -3,6 +3,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Layout from '../components/Layout';
 import Home from '../containers/Home';
 import NotFound from '../containers/NotFound';
+import '@csstools/normalize.css';
+import '../assets/styles/App.scss';
 
 const App = () => (
   <BrowserRouter>

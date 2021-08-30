@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Asap';
+  src: url('../fonts/asap-regular.woff2') format('woff2'),
+    url('../fonts/asap-regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}

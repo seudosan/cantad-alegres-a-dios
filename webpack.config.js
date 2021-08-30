@@ -7,9 +7,15 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    clean: true,
   },
   resolve: {
     extensions: ['.js', '.jsx'],
+    alias: {
+      '@images': path.resolve(__dirname, 'src/assets/images'),
+      '@styles': path.resolve(__dirname, 'src/styles'),
+      '@icons': path.resolve(__dirname, 'src/assets/icons'),
+    },
   },
   module: {
     rules: [
@@ -37,6 +43,31 @@ module.exports = {
           'css-loader',
           'sass-loader',
         ],
+      },
+      {
+        test: /\.png/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'static/images/[hash][ext][query]',
+        },
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-url-loader',
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(woff|woff2)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'static/fonts/[hash][ext][query]',
+        },
       },
     ],
   },
