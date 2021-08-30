@@ -1,8 +1,30 @@
 @import url('./index.css');
 
-body {
-  margin: 0;
-  background-color: red;
-  color: white;
+$primary-dark-color: #04090D;
+$secondary-dark-color: #08141D;
+$gray-color: #4D565C;
+$soft-gray-color: #A1A6A9;
+$white-color: #F8F8F8;
+$light-green-color: #3DC946;
+$dark-green-color: #228753;
+
+* {
   font-family: 'Asap';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: $white-color;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+  flex-direction: column;
 }
