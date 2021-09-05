@@ -1,28 +1,25 @@
 .icon-button{align-items:center;background-color:transparent;border:none;cursor:pointer;background-color:#4D565C;border-radius:100%;display:flex;height:36px;justify-content:center;min-height:36px;min-width:36px;padding:auto;width:36px}.icon-button.icon-button--inactive{background-color:transparent}.icon-button.icon-button--inactive:hover{background-color:rgba(161,166,169,0.2)}.icon-button.icon-button--hidden{display:none}.icon-button__img{height:20px}
 
-.header{align-items:center;background-color:#08141D;box-shadow:0px 1px 6px #000;display:flex;flex-direction:row;justify-content:space-between;gap:8px;padding:8px 8px;z-index:1;width:100%}.header__home{padding:0 8px}.header-nav__list{display:flex;flex-direction:row;gap:6px;align-items:center}.header__input{height:36px;background-color:#4D565C;border:none;border-radius:4px;font-size:18px;text-align:start;flex-grow:1;padding:8px 8px;color:#F8F8F8;outline:none}.header__input::-webkit-search-cancel-button{-webkit-appearance:none;height:16px;width:16px;background:url(../static/images/c4cff73fabee47c3a31d.png);background-size:contain;cursor:pointer}
+.header{align-items:center;background-color:#08141D;box-shadow:0px 1px 6px #000;display:flex;flex-direction:row;justify-content:space-between;gap:8px;padding:8px 8px;z-index:1;width:100%}.header__home{padding:0 8px}.header-nav__list{display:flex;flex-direction:row;gap:6px;align-items:center}.header__input{height:36px;background-color:#4D565C;border:none;border-radius:4px;font-size:18px;text-align:start;flex-grow:1;padding:8px 8px;color:#F8F8F8;outline:none}.header__input::-webkit-search-cancel-button{-webkit-appearance:none;height:16px;width:16px;background:url(/static/images/c4cff73fabee47c3a31d.png);background-size:contain;cursor:pointer}
 
 .footer{background-color:#04090D;color:#F8F8F8;display:flex;flex-direction:column;gap:24px;font-size:1.6rem;padding:64px 16px;text-align:center}
 
 .main{background-color:#04090D;width:100%;padding:32px;display:flex;justify-content:center;box-sizing:border-box}.main .main__img{max-height:80vh;width:100%;min-height:70vh}
 
-.not-result{align-items:center;background-color:#04090D;color:#F8F8F8;display:flex;flex-direction:column;padding:64px 32px;text-align:center}.not-result .not-result__img{max-height:50vh;min-height:40vh;width:50%}.not-result .not-result__title{font-size:2.4rem}.not-result .not-result__description{font-size:1.6rem}
+.home__img{padding:64px 32px;margin:0 auto}.home-list{display:flex;flex-direction:column;gap:12px;background-color:#08141D}
 
-.song-card{background-color:#04090D;padding:24px 16px;display:flex;flex-direction:column}.song-card .song-card__identity{margin-bottom:24px;display:flex;flex-direction:row;justify-content:space-between;font-size:1.8rem}.song-card .song-card__identity h3{color:#F8F8F8}.song-card .song-card__content{margin-left:16px;display:flex;font-size:1.6rem;flex-direction:column;color:#F8F8F8;gap:16px}
-
-.button{background:none;background-color:#4D565C;border:none;border-radius:900px;cursor:pointer;color:#F8F8F8;padding:6px 12px;min-width:max-content;border:solid 1px #04090D;font-size:16px}.button:hover{background-color:#F8F8F8;color:#08141D}
+.button{background:none;background-color:#4D565C;border:none;border-radius:900px;cursor:pointer;color:#F8F8F8;padding:6px 12px;min-width:max-content;border:solid 1px #04090D;font-size:16px}.button:hover{background-color:#F8F8F8;color:#08141D}.button.button--active{background-color:#F8F8F8;color:#08141D}
 
 .song-search-song{align-items:center;background-color:#08141D;display:flex;flex-direction:row;gap:12px;overflow-y:scroll;padding:12px 16px;width:100%;font-size:16px}.song-search-song .song-search-song__description{color:#A1A6A9;min-width:max-content}
 
-
-.home__img{padding:64px 32px;margin:0 auto}.home-list{display:flex;flex-direction:column;gap:12px;background-color:#08141D}
+.not-result{align-items:center;background-color:#04090D;color:#F8F8F8;display:flex;flex-direction:column;padding:64px 32px;text-align:center}.not-result .not-result__img{max-height:50vh;min-height:40vh;width:50%}.not-result .not-result__title{font-size:2.4rem}.not-result .not-result__description{font-size:1.6rem}
 
 html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}h1{font-size:2em;margin:0.67em 0}dl dl,dl ol,dl ul,ol dl,ul dl{margin:0}ol ol,ol ul,ul ol,ul ul{margin:0}hr{box-sizing:content-box;color:inherit;height:0;overflow:visible}main{display:block}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}table{border-color:inherit;text-indent:0}button,input,select{margin:0}button{overflow:visible;text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}fieldset{padding:0.35em 0.75em 0.625em}input{overflow:visible}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;white-space:normal}progress{display:inline-block;vertical-align:baseline}select{text-transform:none}textarea{margin:0;overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}::-webkit-input-placeholder{color:inherit;opacity:0.54}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:1px dotted ButtonText}:-moz-ui-invalid{box-shadow:none}details{display:block}dialog{background-color:white;border:solid;color:black;display:block;height:-moz-fit-content;height:-webkit-fit-content;height:fit-content;left:0;margin:auto;padding:1em;position:absolute;right:0;width:-moz-fit-content;width:-webkit-fit-content;width:fit-content}dialog:not([open]){display:none}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
 
 @font-face {
   font-family: 'Asap';
-  src: url(../static/fonts/0a0a55dfec7cad0cafca.woff2) format('woff2'),
-    url(../static/fonts/c9d9b52758775a9ff6f7.woff) format('woff');
+  src: url(/static/fonts/0a0a55dfec7cad0cafca.woff2) format('woff2'),
+    url(/static/fonts/c9d9b52758775a9ff6f7.woff) format('woff');
   font-style: normal;
   font-weight: 400;
 }
