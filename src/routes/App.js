@@ -1,20 +1,24 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Layout from '../components/Layout';
-import Home from '../containers/Home';
+import { HashRouter, Switch, Route, Redirect } from 'react-router-dom';
+import Layout from '@components/Layout';
+import Home from '@containers/Home';
+import Search from '@containers/Search';
 import NotFound from '../containers/NotFound';
 import '@csstools/normalize.css';
 import '../assets/styles/App.scss';
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Layout>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route component={NotFound} />
+        <Route exact path='/search' component={Search} />
+        <Route exact path='/not-found' component={NotFound} />
+        <Redirect to='/not-found' />
       </Switch>
     </Layout>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
