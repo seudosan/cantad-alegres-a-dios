@@ -12,7 +12,7 @@
 
 .song-search-song{align-items:center;background-color:#08141D;display:flex;flex-direction:row;gap:12px;overflow-y:scroll;padding:12px 16px;width:100%;font-size:16px}.song-search-song .song-search-song__description{color:#A1A6A9;min-width:max-content}
 
-.song-card{background-color:#04090D;padding:24px 16px;display:flex;flex-direction:column}.song-card .song-card__identity{margin-bottom:24px;display:flex;flex-direction:row;justify-content:space-between;font-size:1.8rem}.song-card .song-card__identity h3{color:#F8F8F8}.song-card .song-card__content{margin-left:16px;display:flex;font-size:1.6rem;flex-direction:column;color:#F8F8F8;gap:16px}
+.song-card{background-color:#04090D;padding:24px 16px;display:flex;flex-direction:column}.song-card .song-card__identity{margin-bottom:24px;display:flex;flex-direction:row;justify-content:space-between;font-size:1.8rem}.song-card .song-card__identity h3{color:#F8F8F8}.song-card .song-card__content{margin-left:16px;display:flex;font-size:1.6rem;flex-direction:column;color:#F8F8F8}.song-card .song-card__content p{margin-bottom:16px}
 
 .not-result{align-items:center;background-color:#04090D;color:#F8F8F8;display:flex;flex-direction:column;padding:64px 32px;text-align:center}.not-result .not-result__img{max-height:50vh;min-height:40vh;width:50%}.not-result .not-result__title{font-size:2.4rem}.not-result .not-result__description{font-size:1.6rem}
 
