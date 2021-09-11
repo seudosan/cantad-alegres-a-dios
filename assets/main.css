@@ -14,7 +14,7 @@
 
 .song-card{background-color:#04090D;padding:24px 16px;display:flex;flex-direction:column}.song-card .song-card__identity{margin-bottom:24px;display:flex;flex-direction:row;justify-content:space-between;font-size:1.8rem}.song-card .song-card__identity h3{color:#F8F8F8}.song-card .song-card__content{margin-left:16px;display:flex;font-size:1.6rem;flex-direction:column;color:#F8F8F8}.song-card .song-card__content p{margin-bottom:16px}
 
-.not-result{align-items:center;background-color:#04090D;color:#F8F8F8;display:flex;flex-direction:column;padding:64px 32px;text-align:center}.not-result .not-result__img{max-height:50vh;min-height:40vh;width:50%}.not-result .not-result__title{font-size:2.4rem}.not-result .not-result__description{font-size:1.6rem}
+.not-result{align-items:center;color:#F8F8F8;display:flex;flex-direction:column;padding:64px 32px;text-align:center}.not-result .not-result__img{max-height:50vh;min-height:40vh;width:50%}.not-result .not-result__title{font-size:2.4rem}.not-result .not-result__description{font-size:1.6rem}
 
 .song-search-results{min-height:90vh}
 
