@@ -1,0 +1,16 @@
+@import '@styles/Vars.scss';
+
+.main {
+  background-color: $primary-dark-color;
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+
+  .main__img {
+    max-height: 80vh;
+    width: 100%;
+    min-height: 70vh;
+  }
+}

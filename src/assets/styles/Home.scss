@@ -1,4 +1,12 @@
+@import '@styles/Vars.scss';
+
 .home__img {
   padding: 64px 32px;
   margin: 0 auto;
+}
+.home-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: $secondary-dark-color;
 }

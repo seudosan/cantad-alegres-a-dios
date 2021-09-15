@@ -1,0 +1,23 @@
+@import '@styles/Vars.scss';
+
+.not-result {
+  align-items: center;
+  color: $white-color;
+  display: flex;
+  flex-direction: column;
+  padding: 64px 32px;
+  text-align: center;
+  
+  .not-result__img {
+    max-height: 50vh;
+    min-height: 40vh;
+    width: 50%;
+  }
+  
+  .not-result__title {
+    font-size: 2.4rem;
+  }
+  .not-result__description {
+    font-size: 1.6rem;
+  }
+}

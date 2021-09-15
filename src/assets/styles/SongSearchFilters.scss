@@ -1,0 +1,26 @@
+@import '@styles/Vars.scss';
+
+.song-search-filters {
+  align-items: center;
+  background-color: $secondary-dark-color;
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+  padding: 12px 16px;
+  width: 100%;
+  font-size: 16px;
+
+  .song-search-filters__description {
+    color: $soft-gray-color;
+    min-width: max-content;
+    margin-right: 12px;
+  }
+  
+  button {
+    margin-right: 12px;
+  
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}

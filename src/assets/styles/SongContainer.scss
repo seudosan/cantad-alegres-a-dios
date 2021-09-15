@@ -1,0 +1,31 @@
+@import '@styles/Vars.scss';
+
+.song-card {
+  background-color: $primary-dark-color;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+
+  .song-card__identity {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    
+    h3 {
+      color: $white-color;
+    }
+  }
+  .song-card__content {
+    margin-left: 16px;
+    display: flex;
+    font-size: 1.6rem;
+    flex-direction: column;
+    color: $white-color;
+
+    p {
+      margin-bottom: 16px;
+    }
+  }
+}

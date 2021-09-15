@@ -2,7 +2,7 @@
 import React from 'react';
 import '@styles/IconButton.scss';
 
-const STATE = ['active', 'inactive'];
+const STATE = ['active', 'inactive', 'hidden'];
 
 const IconButton = ({ icon, alt, title, initialState, onClick }) => {
   const checkState = STATE.includes(initialState) ? initialState : 'active';
@@ -14,7 +14,7 @@ const IconButton = ({ icon, alt, title, initialState, onClick }) => {
       className={`icon-button icon-button--${checkState}`}
       title={title}
     >
-      <img className='icon-button__icon' src={icon} alt={alt} />
+      <img className='icon-button__img' src={icon} alt={alt} />
     </button>
   );
 };

@@ -1,14 +1,15 @@
 /* eslint-disable import/no-unresolved */
 import React from 'react';
-import Footer from '@components/Footer';
-import Main from '@images/main.png';
+import Main from '@components/Main';
+import { connect } from 'react-redux';
 import '@styles/Home.scss';
 
-const Home = () => (
-  <>
-    <img className='home__img' src={Main} alt='Home' />
-    <Footer />
-  </>
-);
+const Home = () => {
 
-export default Home;
+  return (
+    <Main />
+  );
+
+};
+
+export default connect(null, null)(Home);
